@@ -1,33 +1,3 @@
-html:not(.style-scope)
-{
-  --ctp-rosewater: #f2d5cf;
-  --ctp-flamingo: #eebebe;
-  --ctp-pink: #f4b8e4;
-  --ctp-mauve: #ca9ee6;
-  --ctp-red: #e78284;
-  --ctp-maroon: #ea999c;
-  --ctp-peach: #ef9f76;
-  --ctp-yellow: #e5c890;
-  --ctp-green: #a6d189;
-  --ctp-teal: #81c8be;
-  --ctp-sky: #99d1db;
-  --ctp-sapphire: #85c1dc;
-  --ctp-blue: #8caaee;
-  --ctp-lavender: #babbf1;
-  --ctp-text: #c6d0f5;
-  --ctp-base: #303446;
-  --ctp-mantle: #292c3c;
-  --ctp-crust: #232634;
-
-  --ctp-accent: var(--ctp-mauve);
-
-  --unthemed-yet: inherit !important;
-
-  --ytmusic-scrollbar-width: 0px !important;
-  --ytd-scrollbar-width: 0px !important;
-  scrollbar-width: none !important;
-}
-
 i.material-icons
 {
   color: var(--ctp-text) !important;
@@ -622,7 +592,7 @@ tp-yt-paper-slider#progress-bar.style-scope.ytmusic-player-bar
 
 img#img.style-scope.yt-img-shadow[src="https://www.gstatic.com/music/listening_review/HOME_RECAP_SHELF_AVATAR_BLACK_60x60.png"]
 {
-  content: url("https://raw.githubusercontent.com/catppuccin/youtubemusic/main/assets/icons/frappe.png") !important;
+  content: var(--theme-icon) !important;
 }
 
 ytmusic-player-expanding-menu#expanding-menu.style-scope.ytmusic-player-bar
@@ -851,7 +821,7 @@ ytmusic-search-box.style-scope.ytmusic-nav-bar
 
 img#img.style-scope.yt-img-shadow[src="https://www.gstatic.com/youtube/media/ytm/images/pbg/create-playlist-@210.png"]
 {
-  content: url("https://raw.githubusercontent.com/catppuccin/youtubemusic/main/assets/icons/frappe-playlist.png") !important;
+  content: var(--theme-playlist) !important;
 }
 
 ytmusic-tabs#tabs.style-scope.ytmusic-tabbed-search-results-renderer.stuck
@@ -1315,5 +1285,3 @@ div.cet-titlebar.cet-linux
   background-color: var(--ctp-mantle) !important;
   color: var(--ctp-text) !important;
 }
-
-@import url("template.css")
