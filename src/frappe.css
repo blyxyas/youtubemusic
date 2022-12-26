@@ -31,4 +31,4 @@ html:not(.style-scope)
   --theme-playlist: url("https://raw.githubusercontent.com/catppuccin/youtubemusic/main/assets/icons/frappe-playlist.png");
 }
 
-@import url("template.css")
+@import url("https://raw.githubusercontent.com/blyxyas/youtubemusic/using-templates/src/template.css")

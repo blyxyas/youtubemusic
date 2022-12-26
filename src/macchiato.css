@@ -30,3 +30,5 @@ html:not(.style-scope)
   --theme-icon: url("https://raw.githubusercontent.com/catppuccin/youtubemusic/main/assets/icons/macchiato.png");
   --theme-playlist: url("https://raw.githubusercontent.com/catppuccin/youtubemusic/main/assets/icons/macchiato-playlist.png");
 }
+
+@import url("https://raw.githubusercontent.com/blyxyas/youtubemusic/using-templates/src/template.css")
